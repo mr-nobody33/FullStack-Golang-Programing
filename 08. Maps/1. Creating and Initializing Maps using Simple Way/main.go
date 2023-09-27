@@ -3,10 +3,12 @@ package main
 import "fmt"
 
 func main() {
+	// Creating empty map
 	var emptyMap = map[int]string{}
 
 	fmt.Println("Empty Map: ", emptyMap)
 
+	// Creating and initializing a simple map
 	var myMap = map[int]string{
 		1: "Kim",
 		2: "Jim",
